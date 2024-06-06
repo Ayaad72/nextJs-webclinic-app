@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaMapMarkerAlt, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 const branch = () => {
   return (
     <div>

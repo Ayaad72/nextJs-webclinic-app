@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { FaMapMarkerAlt, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const HomePageSections = ({ sections = [] }) => {
   return (
