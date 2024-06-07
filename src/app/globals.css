@@ -6,3 +6,4 @@ body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
   -ms-overflow-style: none; /* for Internet Explorer and Edge */
 }
+/* font-size: calc(15px + 3vmin); */

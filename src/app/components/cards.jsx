@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import {
   faStethoscope,
   faMale,
@@ -31,9 +32,11 @@ const Card = ({ title, description, icon }) => {
       />
       <h2 className="text-xl font-semibold text-center mb-2">{title}</h2>
       <p className="text-center text-gray-600 mb-4">{description}</p>
-      <button className="mt-auto bg-white text-gray-800 py-2 px-4 rounded hover:bg-gray-100 transition-colors duration-300">
-        Learn More
-      </button>
+      <Link href="/pages/physio">
+        <button className="mt-auto bg-white text-gray-800 py-2 px-4 rounded hover:bg-gray-100 transition-colors duration-300">
+          Learn More
+        </button>
+      </Link>
     </div>
   );
 };
