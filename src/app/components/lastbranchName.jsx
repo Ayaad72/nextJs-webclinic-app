@@ -43,7 +43,7 @@ const lastbranchName = () => {
         </div>
         <div className="w-full lg:w-1/2 relative" style={{ height: "100%" }}>
           <Image
-            src="/assets/image 7 Machine.svg"
+            src="/assets/image 9.svg"
             alt="Branch Image"
             layout="fill"
             objectFit="cover"
